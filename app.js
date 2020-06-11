@@ -83,7 +83,6 @@ document.addEventListener('DOMContentLoaded', function () {
       keyString = [];
     } else {
       keyString.push(event.key);
-      console.log(keyString);
     }
     if (arraysEqual(konamiCode, keyString)) {
       alert('YOU ARE AN EVENT HANDLER GURUUUUUUUUU!');
