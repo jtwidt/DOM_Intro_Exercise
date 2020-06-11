@@ -80,6 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
     if (numbers.indexOf(event.key) > -1) {
       alert('I HATE NUMBERZZZ!');
+      keyString = [];
     } else {
       keyString.push(event.key);
       console.log(keyString);
